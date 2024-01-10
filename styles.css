@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  #dog-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0; 
+  }
+  
+  label, select {
+    font-size: 14px;
+  }
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #999;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  li:hover {
+    color: purple;
+    cursor: pointer;
+  }
